@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NBAInfo</class>
+ <widget class="QWidget" name="NBAInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>NBA Information Window</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>50</y>
+     <width>650</width>
+     <height>450</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Conference and Division</string>
+   </property>
+   <widget class="QWidget" name="Home">
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>70</y>
+       <width>481</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="images.qrc">:/images/nbainfoimg.png</pixmap>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>581</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>NBA Information</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>141</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>12</y>
+      <width>127</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="homeButton">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:#ccccff;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 5px;
+color: black;</string>
+       </property>
+       <property name="text">
+        <string>HOME</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>18</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="teamsButton">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:#8a2be2;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 5px;
+color: white;</string>
+       </property>
+       <property name="text">
+        <string>Teams</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="arenasButton">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:#8a2be2;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 5px;
+color: white;</string>
+       </property>
+       <property name="text">
+        <string>Arenas</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="confDivButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>Confernce and Division</string>
+       </property>
+       <property name="statusTip">
+        <string/>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:#8a2be2;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 5px;
+color: white;</string>
+       </property>
+       <property name="text">
+        <string>Associations</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="coachesButton">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:#8a2be2;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 5px;
+color: white;</string>
+       </property>
+       <property name="text">
+        <string>Coaches</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="souvenirsButton">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:#8a2be2;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 5px;
+color: white;</string>
+       </property>
+       <property name="text">
+        <string>Souvenirs</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>18</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="exitButton">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:#ccccff;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 5px;
+color: black;</string>
+       </property>
+       <property name="text">
+        <string>EXIT</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

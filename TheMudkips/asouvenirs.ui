@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>aSouvenirs</class>
+ <widget class="QWidget" name="aSouvenirs">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>77</y>
+     <width>521</width>
+     <height>373</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>17</y>
+     <width>428</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Niagara Engraved</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Souvenirs</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addSouvenir">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>140</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Souvenir</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="editSouvenir">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>280</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Edit Souvenir</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteSouvenir">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>400</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Delete Souvenir</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="addName">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>70</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="accessibleName">
+    <string/>
+   </property>
+   <property name="accessibleDescription">
+    <string/>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="placeholderText">
+    <string>Insert The Name Of The Souvenir</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="addMoney">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>70</y>
+     <width>62</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="editMoney">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>210</y>
+     <width>62</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>180</y>
+     <width>251</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>320</y>
+     <width>251</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>50</y>
+     <width>321</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Choose Arena For Souvenirs</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Atlanta Hawks Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Boston Celtics Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Brooklyn Nets Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charlotte Hornets Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chicago Bulls Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Cleveland Cavaliers Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dallas Mavericks Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Denver Nuggets Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Detroit Pistons Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Golden State Warriors Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Houston Rockets Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Indiana Pacers Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Los Angeles Clippers Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Los Angeles Lakers Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Memphis Grizzlies Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Miami Heat Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Milwaukee Bucks Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Minnesota Timberwolves Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>New Orleans Pelicans Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>New York Knicks Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Oklahoma City Thunder Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Orlando Magic Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Philadelphia 76ers Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Phoenix Suns Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Portland Trail Blazers Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sacramento Kings Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Seattle Supersonics Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>San Antonio Spurs Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Toronto Raptors Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Utah Jazz Store</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Washington Wizards Store</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="editComboBox">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>210</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Select Item</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="deleteComboBox">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>340</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Select Item</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="souvName">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>20</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

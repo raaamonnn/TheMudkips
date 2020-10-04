@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>nbaTeams</class>
+ <widget class="QWidget" name="nbaTeams">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="dataView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>91</y>
+     <width>631</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="alternatingRowColors">
+    <bool>true</bool>
+   </property>
+   <property name="sortingEnabled">
+    <bool>true</bool>
+   </property>
+   <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="sortNameButton">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>50</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sort By Team Name</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sortYearButton">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>50</y>
+     <width>111</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sort By Year</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TitleLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>601</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>NBA Teams</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="teamComboBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>241</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>* Choose Team *</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>All Teams</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Atlanta Hawks</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Brooklyn Nets</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Boston Celtics</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Cleveland Cavaliers</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chicago Bulls</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charlotte Hornets</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dallas Mavericks</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Detroit Pistons</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Denver Nuggets</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Golden State Warriors</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Houston Rockets</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Indiana Pacers</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Los Angeles Clippers</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Los Angeles Lakers</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Memphis Grizzlies</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Miami Heat</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Minnesota Timberwolves</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Milwaukee Bucks</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>New Orleans Pelicans</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>New York Knicks</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Orlando Magic</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Oklahoma City Thunder</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Philadelphia 76ers</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Phoenix Suns</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Portland Trail Blazers</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sacramento Kings</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>San Antonio Spurs</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Toronto Raptors</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Utah Jazz</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Washington Wizards</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Vacation</class>
+ <widget class="QWidget" name="Vacation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Vacation Travel Window</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>800</width>
+     <height>450</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="packagePage">
+    <widget class="QGroupBox" name="aGroupBox">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>240</width>
+       <height>375</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgba(179, 208, 229, 0.5);
+color:black;</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QPushButton" name="packageAButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>220</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:orange;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 5px;
+color: black;</string>
+      </property>
+      <property name="text">
+       <string>SELECT DENVER PACKAGE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="aStartLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>300</y>
+        <width>220</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Starting at...&lt;/span&gt;&lt;br&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#aa00ff;&quot;&gt;Denver Nuggets&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="aPic">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>220</width>
+        <height>240</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="images.qrc">:/images/mudkipA.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="bGroupBox">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>60</y>
+       <width>240</width>
+       <height>375</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgba(179, 208, 229, 0.5);
+color:black;</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QPushButton" name="packageBButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>220</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:orange;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 5px;
+color: black;</string>
+      </property>
+      <property name="text">
+       <string>SELECT DETRIOT PACKAGE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="bstartLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>300</y>
+        <width>220</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Starting at...&lt;/span&gt;&lt;br&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#aa00ff;&quot;&gt;Detriot Pistons&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="bPic">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>220</width>
+        <height>240</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="images.qrc">:/images/shinyB.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="cGroupBox">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>60</y>
+       <width>240</width>
+       <height>375</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgba(179, 208, 229, 0.5);
+color:black;</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QPushButton" name="packageCButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>220</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:orange;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 5px;
+color: black;</string>
+      </property>
+      <property name="text">
+       <string>SELECT CUSTOM PACKAGE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cStartLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>300</y>
+        <width>220</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#000000;&quot;&gt;Starting from...&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#aa00ff;&quot;&gt;fan's team choice&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cPic">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>220</width>
+        <height>240</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="images.qrc">:/images/eggC.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="packageTitle">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>770</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Select your Dream Vacation Package below.</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="packagesButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>171</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#8a2be2;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 5px;
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Travel Packages</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bfsButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>10</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#8a2be2;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 5px;
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>BFS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dfsButton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>10</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#8a2be2;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 5px;
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>DFS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mstButton">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>10</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#8a2be2;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 5px;
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>MST</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>10</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#ccccff;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+border-radius: 5px;
+color: black;</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="buttonBG">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:black;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="images.qrc">:/images/packageBG.jpg</pixmap>
+   </property>
+  </widget>
+  <zorder>buttonBG</zorder>
+  <zorder>stackedWidget</zorder>
+  <zorder>packagesButton</zorder>
+  <zorder>bfsButton</zorder>
+  <zorder>dfsButton</zorder>
+  <zorder>mstButton</zorder>
+  <zorder>exitButton</zorder>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
